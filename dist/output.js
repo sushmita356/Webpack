@@ -77,7 +77,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _other__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./other */ \"./src/other.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nvar name = __webpack_require__(/*! ./name */ \"./src/name.js\");\nalert(name);\ndocument.write((0,_other__WEBPACK_IMPORTED_MODULE_1__.other)());\n\n//# sourceURL=webpack://Webpack/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _other__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./other */ \"./src/other.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nvar name = __webpack_require__(/*! ./name */ \"./src/name.js\");\n// alert(name);\ndocument.write((0,_other__WEBPACK_IMPORTED_MODULE_1__.other)());\n\n//# sourceURL=webpack://Webpack/./src/app.js?");
 
 /***/ }),
 
@@ -90,7 +90,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _oth
 /*! CommonJS bailout: module.exports is used directly at 2:0-14 */
 /***/ ((module) => {
 
-eval("var name = \"sushmita\";\nmodule.exports = name; \n\n//# sourceURL=webpack://Webpack/./src/name.js?");
+eval("var name = \"sushmita\";\nmodule.exports  = name; \n\n//# sourceURL=webpack://Webpack/./src/name.js?");
 
 /***/ }),
 
@@ -105,7 +105,7 @@ eval("var name = \"sushmita\";\nmodule.exports = name; \n\n//# sourceURL=webpack
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"other\": () => /* binding */ other\n/* harmony export */ });\nfunction other() {\n    return 'hello world';\n}\n\n//# sourceURL=webpack://Webpack/./src/other.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"other\": () => /* binding */ other\n/* harmony export */ });\nfunction other(){\n    return 'hello world';\n}\n\n//# sourceURL=webpack://Webpack/./src/other.js?");
 
 /***/ })
 

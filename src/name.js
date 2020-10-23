@@ -1,2 +1,2 @@
 var name = "sushmita";
-module.exports = name; 
+module.exports  = name; 

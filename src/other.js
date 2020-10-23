@@ -1,3 +1,3 @@
-export function other() {
+export function other(){
     return 'hello world';
 }
