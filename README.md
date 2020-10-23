@@ -1,0 +1,2 @@
+# Webpack
+simple webpack example
