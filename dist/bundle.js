@@ -7,6 +7,7 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/app.js":
@@ -18,20 +19,7 @@
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _other__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./other */ \"./src/other.js\");\n\nvar name = __webpack_require__(/*! ./name */ \"./src/name.js\");\nalert(name);\ndocument.write((0,_other__WEBPACK_IMPORTED_MODULE_0__.other)());\n\n//# sourceURL=webpack://Webpack/./src/app.js?");
-
-/***/ }),
-
-/***/ "./src/name.js":
-/*!*********************!*\
-  !*** ./src/name.js ***!
-  \*********************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/***/ ((module) => {
-
-eval("var name = \"sushmita\";\nmodule.exports = name; \n\n//# sourceURL=webpack://Webpack/./src/name.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _other__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./other */ \"./src/other.js\");\n\ndocument.write((0,_other__WEBPACK_IMPORTED_MODULE_0__.other)());\n\n//# sourceURL=webpack://Webpack/./src/app.js?");
 
 /***/ }),
 
@@ -45,7 +33,6 @@ eval("var name = \"sushmita\";\nmodule.exports = name; \n\n//# sourceURL=webpack
 /*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"other\": () => /* binding */ other\n/* harmony export */ });\nfunction other() {\n    return 'hello world';\n}\n\n//# sourceURL=webpack://Webpack/./src/other.js?");
 
 /***/ })
